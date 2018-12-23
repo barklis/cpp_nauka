@@ -78,4 +78,102 @@ void Robotnik :: Wczytaj (char* a){
 
 }
 
+void Robotnik :: Zapisz_bin(char* a){
+	ofstream plik;
+	plik.open(a, std::ofstream::app | std::ofstream::binary);
+	char end = '\0';
+	if(plik.good()){
+		
+		plik.write((char*) this->imie.c_str(), sizeof(char)*this->imie.size());
+		plik.write(&end, 1);
+		plik.write((char*) this->nazwisko.c_str(), sizeof(char)*this->nazwisko.size());
+		plik.write(&end, 1);
+		plik.write((char*) &(this->wiek), sizeof(int));
+		plik.write((char*) this->tytul.c_str(), sizeof(char)*this->tytul.size());
+		plik.write(&end, 1);
+		plik.write((char*) &(this->staz), sizeof(int));
+		plik.write((char*) &(this->pensja), sizeof(double));
+		plik.write((char*) &(this->stawka), sizeof(double));
+		plik.write((char*) &(this->iloscGodzin), sizeof(double));
+		
+	}
+	else{
+		cerr << "Błąd w zapisie binarnego!" << endl;
+	}
+	plik.close();
+}
+
+void Robotnik :: Wczytaj_bin(char* a, string im){
+	ifstream plik;
+	plik.open(a, std::ifstream::in | std::ifstream::binary);
+	if(plik.good()){
+
+		char text[256];
+		int i = 0, j=0; 
+		char buff = 'a';
+		int finded = 0;
+		while(!finded && !plik.eof()){
+			plik.read((char*) &buff, sizeof(char));
+			if(buff == im[0]){
+				j++;
+				while(j < im.size() && !plik.eof()){
+					plik.read((char*) &buff, sizeof(char));
+					if(buff != im[j]){
+						j = 0;
+						break;	
+					}
+					j++;
+				}
+				if(j != 0)
+					finded = 1;
+				plik.seekg(i);
+			}
+			i++; 
+		}
+		
+		if(finded){
+
+			while(buff != '\0' && i < 256){
+		
+				plik.read((char*) &buff, sizeof(char));
+				text[i] = buff;
+				i++;
+			}
+			this->imie = text;
+		
+			i = 0;
+			buff = 'a';
+			while(buff != '\0' && i < 256){
+
+        	                plik.read((char*) &buff, sizeof(char));
+        	                text[i] = buff;
+        	                i++;
+			}
+			this->nazwisko = text;
+	
+			plik.read((char*) &(this->wiek), sizeof(int));
+		
+			i = 0;
+        	        buff = 'a';
+                	while(buff != '\0' && i < 256){
+
+                        	plik.read((char*) &buff, sizeof(char));
+                	        text[i] = buff;
+                        	i++;
+               		}
+                	this->tytul = text;
+		
+			plik.read((char*) &(this->staz), sizeof(int));
+			plik.read((char*) &(this->pensja), sizeof(double));
+                	plik.read((char*) &(this->stawka), sizeof(double));
+                	plik.read((char*) &(this->iloscGodzin), sizeof(double));
+		}
+		else{
+			cerr << "Nie ma takiego rekordu!" << endl;
+		}
+	}
+	else{
+		cerr << "Błąd w wczytywaniu!" << endl;
+	}	
+}
 

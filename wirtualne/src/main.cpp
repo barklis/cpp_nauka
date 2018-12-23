@@ -43,6 +43,7 @@ int main (int argc, char** argv){
 	rob2.Zapisz(argv[1]);
 	kier.Zapisz(argv[1]);
 	
+	/*
 	Robotnik rob3;
 	
 	Pracownik *pracownik3;
@@ -66,8 +67,14 @@ int main (int argc, char** argv){
 	kier2.Wczytaj(argv[3]);
 	pracownik4 -> GetInfo();
 	cout << endl;
-	
-	
-	
+	*/
+	//Binarne
+		
+	rob2.Zapisz_bin(argv[2]);
+	rob1.Zapisz_bin(argv[2]);
+
+	rob1.Wczytaj_bin(argv[2],"Marek");
+	rob1.GetInfo();
+ 
 	return 0;
 }
