@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/kierownik.cpp" "/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/CMakeFiles/praca.dir/src/kierownik.cpp.o"
-  "/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/main.cpp" "/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/CMakeFiles/praca.dir/src/main.cpp.o"
-  "/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/pracownik.cpp" "/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/CMakeFiles/praca.dir/src/pracownik.cpp.o"
-  "/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/robotnik.cpp" "/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/CMakeFiles/praca.dir/src/robotnik.cpp.o"
-  "/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/wizytowka.cpp" "/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/CMakeFiles/praca.dir/src/wizytowka.cpp.o"
+  "/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/kierownik.cpp" "/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/CMakeFiles/praca.dir/src/kierownik.cpp.o"
+  "/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/main.cpp" "/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/CMakeFiles/praca.dir/src/main.cpp.o"
+  "/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/pracownik.cpp" "/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/CMakeFiles/praca.dir/src/pracownik.cpp.o"
+  "/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/robotnik.cpp" "/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/CMakeFiles/praca.dir/src/robotnik.cpp.o"
+  "/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/wizytowka.cpp" "/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/CMakeFiles/praca.dir/src/wizytowka.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

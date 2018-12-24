@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/kierownik.cpp
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/kierownik.cpp
 kierownik.h
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/kierownik.h
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/kierownik.h
 
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/main.cpp
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/main.cpp
 kierownik.h
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/kierownik.h
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/kierownik.h
 pracownik.h
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/pracownik.h
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/pracownik.h
 wizytowka.h
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/wizytowka.h
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/wizytowka.h
 robotnik.h
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/robotnik.h
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/robotnik.h
 
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/pracownik.cpp
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/pracownik.cpp
 pracownik.h
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/pracownik.h
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/pracownik.h
 
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/robotnik.cpp
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/robotnik.cpp
 robotnik.h
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/robotnik.h
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/robotnik.h
 
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/wizytowka.cpp
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/wizytowka.cpp
 wizytowka.h
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/src/wizytowka.h
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/src/wizytowka.h
 
 include/kierownik.h
 pracownik.h

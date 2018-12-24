@@ -15,4 +15,8 @@ class Robotnik: public Pracownik {
 	void GetInfo();
 	void Zapisz(char* a);
 	void Wczytaj (char* a);
+
+	void Zapisz_bin(char* a); //Zapisuje binarny plik z objektem
+	void Wczytaj_bin(char* a, string im); //Wczytuje z binarnego objekt o imieniu im
 };
+

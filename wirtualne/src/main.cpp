@@ -73,7 +73,7 @@ int main (int argc, char** argv){
 	rob2.Zapisz_bin(argv[2]);
 	rob1.Zapisz_bin(argv[2]);
 
-	rob1.Wczytaj_bin(argv[2],"Marek");
+	rob1.Wczytaj_bin(argv[2],"Jan");
 	rob1.GetInfo();
  
 	return 0;

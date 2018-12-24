@@ -132,7 +132,8 @@ void Robotnik :: Wczytaj_bin(char* a, string im){
 		}
 		
 		if(finded){
-
+			i = 0;
+			buff = '\a';
 			while(buff != '\0' && i < 256){
 		
 				plik.read((char*) &buff, sizeof(char));
@@ -142,15 +143,16 @@ void Robotnik :: Wczytaj_bin(char* a, string im){
 			this->imie = text;
 		
 			i = 0;
-			buff = 'a';
+			while(buff == '\0')
+				plik.read((char*) &buff, sizeof(char));
 			while(buff != '\0' && i < 256){
-
+				text[i] = buff;
         	                plik.read((char*) &buff, sizeof(char));
-        	                text[i] = buff;
         	                i++;
 			}
+			text[i+1] = '\0';
 			this->nazwisko = text;
-	
+			
 			plik.read((char*) &(this->wiek), sizeof(int));
 		
 			i = 0;

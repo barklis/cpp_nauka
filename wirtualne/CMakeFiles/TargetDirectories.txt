@@ -1,3 +1,3 @@
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/CMakeFiles/rebuild_cache.dir
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/CMakeFiles/praca.dir
-/home/zuzwie/zuza/programowanie/jp/git_poczatki/wirtualne/CMakeFiles/edit_cache.dir
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/CMakeFiles/edit_cache.dir
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/CMakeFiles/rebuild_cache.dir
+/home/barklis/Dokumenty/IT/Programowanie/C++/Nowe/Zuza/cpp_nauka/wirtualne/CMakeFiles/praca.dir
